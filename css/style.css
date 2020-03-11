@@ -125,6 +125,55 @@
   margin-bottom: 40px;
 }
 
+.services .serv-list {
+  color: #8d8d8d;
+  margin-top: 67px;
+}
+
+.services .serv-list_left {
+  margin-left: 37px;
+}
+
+.services .serv-list__item {
+  margin-bottom: 30px;
+}
+
+.services .owl-carousel {
+  margin-top: 99px;
+  position: relative;
+}
+
+.services .owl-carousel__play {
+  display: block;
+  background: url("../img/play.svg");
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  cursor: pointer;
+}
+
+.services .owl-carousel item,
+.services .owl-carousel .owl-item {
+  width: 825px !important;
+}
+
+.services .owl-carousel .owl-prev {
+  margin-right: 25px !important;
+}
+
+.services .owl-nav {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.services .owl-theme .owl-nav [class*=owl-] {
+  margin: 0;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
   color: #8B8C8C;
@@ -147,5 +196,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 38px;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
