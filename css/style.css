@@ -1,0 +1,22 @@
+.nav {
+  padding-top: 59px;
+}
+
+.search {
+  background: transparent;
+  border: none;
+}
+
+.menu {
+  background: transparent;
+  border: none;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+button {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
