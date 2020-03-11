@@ -1,3 +1,7 @@
+.header {
+  height: 95vh;
+}
+
 .header .nav {
   padding-top: 59px;
   margin-bottom: 127px;
@@ -84,6 +88,28 @@
 .btn:hover {
   background: #2E22BD;
   color: #fff;
+}
+
+.problems {
+  padding-top: 137px;
+}
+
+.problems .about__title {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.problems .about__author {
+  background: url("../img/author.jpg") no-repeat left center;
+  padding: 7px 0 7px 96px;
+}
+
+.problems .about__name {
+  font-size: 22px;
+}
+
+.problems .about__dop {
+  margin-bottom: 0;
 }
 
 body {
