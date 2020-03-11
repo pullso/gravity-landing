@@ -95,7 +95,6 @@
 }
 
 .problems .about__title {
-  font-size: 38px;
   margin-bottom: 30px;
 }
 
@@ -110,6 +109,20 @@
 
 .problems .about__dop {
   margin-bottom: 0;
+}
+
+.services {
+  padding-top: 142px;
+}
+
+.services .section-title__label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #8f8f8f;
+  margin-bottom: 40px;
 }
 
 body {
@@ -130,5 +143,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #151515;
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-size: 38px;
 }
 /*# sourceMappingURL=style.css.map */
