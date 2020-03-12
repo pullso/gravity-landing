@@ -128,12 +128,12 @@
   margin-bottom: 30px;
 }
 
-.services .owl-carousel {
+.services .services-carousel {
   margin-top: 99px;
   position: relative;
 }
 
-.services .owl-carousel__play {
+.services .services-carousel__play {
   display: block;
   background: url("../img/play.svg");
   width: 65px;
@@ -146,21 +146,21 @@
   cursor: pointer;
 }
 
-.services .owl-carousel item,
-.services .owl-carousel .owl-item {
+.services .services-carousel item,
+.services .services-carousel .owl-item {
   width: 825px !important;
 }
 
-.services .owl-carousel .owl-prev {
+.services .services-carousel .owl-prev {
   margin-right: 25px !important;
 }
 
-.services .owl-nav {
+.services .services-carousel .owl-nav {
   text-align: left;
   margin-top: 50px;
 }
 
-.services .owl-theme .owl-nav [class*=owl-] {
+.services .services-carousel .owl-theme .owl-nav [class*=owl-] {
   margin: 0;
 }
 
@@ -304,12 +304,36 @@
   display: flex !important;
 }
 
+.testimonials {
+  padding-top: 248px;
+}
+
 .testimonials .contributor {
   margin-top: 121px;
 }
 
 .testimonials .contributor__title {
   font-size: 22px;
+}
+
+.testimonials .contributor-carousel .owl-nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -50px;
+}
+
+.testimonials .contributor-carousel .owl-prev {
+  margin-right: 30px;
+}
+
+.clients {
+  padding-top: 278px;
+}
+
+.clients-row {
+  margin-top: 127px;
 }
 
 body {
