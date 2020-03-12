@@ -336,6 +336,16 @@
   margin-top: 127px;
 }
 
+.footer {
+  background: #515151;
+  margin-top: 136px;
+}
+
+.footer__logo {
+  margin-top: 109px;
+  margin-bottom: 109px;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
   color: #8B8C8C;
